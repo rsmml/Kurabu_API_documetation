@@ -2,8 +2,6 @@
 # Kurabu API
 
 
-
-
 ## Endpoints
 
 * [Get CLUB information](#get-club-information)
@@ -56,7 +54,7 @@ URL: https://api.kurabu.com/v1/club-subdomain/[CLUB_SUBDOMAIN]
 ```bash
 Method: POST
 Type: RAW
-URL: http://api.kurabu.local:4000/token
+URL: https://api.kurabu.com/v1/token
 ```
 
 
@@ -66,8 +64,8 @@ URL: http://api.kurabu.local:4000/token
 ```js        
 {
     "admin": {
-        "email": "email@test.com",
-        "password": "your_password",
+        "email": "your@admin.email",
+        "password": "password",
         "club_subdomain": "club_subdomain"
     }
 }
